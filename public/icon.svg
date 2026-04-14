@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Dark background with blue border matching Dives badge style -->
+  <rect x="1" y="1" width="30" height="30" rx="3" ry="3" fill="#1E1E1E" stroke="#6FC2FF" stroke-width="2"/>
+  <!-- Ascending bar chart evoking analytics -->
+  <rect x="7" y="19" width="4" height="6" rx="0.5" fill="#6FC2FF"/>
+  <rect x="14" y="14" width="4" height="11" rx="0.5" fill="#6FC2FF"/>
+  <rect x="21" y="8" width="4" height="17" rx="0.5" fill="#6FC2FF"/>
+</svg>
