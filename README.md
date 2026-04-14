@@ -1,4 +1,4 @@
-# Next.js + MotherDuck Postgres endpoint
+# Next.js + MotherDuck Postgres endpoint quickstart
 
 An interactive NYC Taxi analytics dashboard built on [Next.js](https://nextjs.org) App Router, querying [MotherDuck](https://motherduck.com) over the [Postgres endpoint](https://motherduck.com/docs/key-tasks/authenticating-and-connecting-to-motherduck/postgres-endpoint) with the standard [`pg`](https://www.npmjs.com/package/pg) driver — no DuckDB dependencies in the browser.
 
@@ -8,7 +8,7 @@ The template queries MotherDuck's public `sample_data.nyc.taxi` share, so you ge
 
 ## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmotherduckdb%2Fnextjs-motherduck-pg-quickstart&env=MOTHERDUCK_TOKEN&envDescription=MotherDuck%20access%20token.%20Create%20one%20at%20app.motherduck.com%2Fsettings%2Ftokens%20or%20use%20the%20MotherDuck%20Native%20Integration%20to%20provision%20it%20automatically.&envLink=https%3A%2F%2Fmotherduck.com%2Fdocs%2Fkey-tasks%2Fauthenticating-and-connecting-to-motherduck%2Fpostgres-endpoint&project-name=nextjs-motherduck-pg-quickstart&repository-name=nextjs-motherduck-pg-quickstart)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&env=MOTHERDUCK_TOKEN,MOTHERDUCK_HOST&envDefaults=%7B%22MOTHERDUCK_HOST%22%3A%22pg.us-east-1-aws.motherduck.com%22%7D&envDescription=Token%20to%20connect%20to%20the%20MotherDuck%20account&envLink=https%3A%2F%2Fmotherduck.com%2Fdocs%2Fkey-tasks%2Fauthenticating-and-connecting-to-motherduck%2Fauthenticating-to-motherduck%2F%23authentication-using-an-access-token&project-name=nextjs-motherduck-pg-quickstart&repository-name=nextjs-motherduck-pg-quickstart&integration-ids=oac_sO4uodPhwGAmXv89UHYLiDui&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22motherduck%22%2C%22productSlug%22%3A%22motherduck%22%2C%22protocol%22%3A%22storage%22%2C%22group%22%3A%22analytics%22%7D%5D)
 
 Or install the [MotherDuck Native Integration](https://vercel.com/marketplace/motherduck) from the Vercel Marketplace — it provisions a database and sets the required environment variables for you.
 
