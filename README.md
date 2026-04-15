@@ -1,6 +1,6 @@
 # Next.js + MotherDuck Postgres endpoint quickstart
 
-An interactive NYC Taxi analytics dashboard built on [Next.js](https://nextjs.org) App Router, querying [MotherDuck](https://motherduck.com) over the [Postgres endpoint](https://motherduck.com/docs/key-tasks/authenticating-and-connecting-to-motherduck/postgres-endpoint) with the standard [`pg`](https://www.npmjs.com/package/pg) driver — no DuckDB dependencies in the browser.
+An interactive NYC Taxi analytics dashboard built on [Next.js](https://nextjs.org) App Router, querying [MotherDuck](https://motherduck.com) over the [Postgres endpoint](https://motherduck.com/docs/key-tasks/authenticating-and-connecting-to-motherduck/postgres-endpoint) with the standard [`pg`](https://www.npmjs.com/package/pg) driver.
 
 The template queries MotherDuck's public `sample_data.nyc.taxi` share, so you get a working dashboard the moment you deploy.
 

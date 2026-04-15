@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 
@@ -36,6 +37,15 @@ export function SiteHeader() {
         </Link>
 
         <nav className="flex items-center gap-1 sm:gap-2">
+          <a
+            href="https://github.com/motherduckdb/nextjs-motherduck-pg-quickstart"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1 font-mono text-xs uppercase tracking-wider transition-colors"
+          >
+            Repo
+            <ArrowUpRight aria-hidden="true" className="size-3.5" />
+          </a>
           <Button
             variant="ghost"
             size="sm"
